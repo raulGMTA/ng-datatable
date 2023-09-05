@@ -51,8 +51,8 @@ export class NgDataTableComponent {
     @Input() lastArrow: string = '';
     @Input() nextArrow: string = '';
     @Input() previousArrow: string = '';
-    @Input() paginationInfo: string = 'Showing {0} to {1} of {2} entries';
-    @Input() noDataContent: string = 'No data available';
+    @Input() paginationInfo: string = 'Mostrando {0} al {1} de {2} entradas';
+    @Input() noDataContent: string = 'No hay datos disponibles';
     @Input() stickyHeader: boolean = false;
     @Input() height: string = '500px';
     @Input() stickyFirstColumn: boolean = false;
