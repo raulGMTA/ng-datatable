@@ -1,30 +1,9 @@
-# @bhplugin/ng-datatable
 
-<br/>
 
 ## Example
 
 [Document & Demos](https://ng-datatable-document.vercel.app)
 
-## Install
-
-#### NPM
-
-```bash
-npm install @bhplugin/ng-datatable --save
-```
-
-#### Yarn
-
-```bash
-yarn add @bhplugin/ng-datatable
-```
-
-#### Bower
-
-```bash
-bower install @bhplugin/ng-datatable --save
-```
 
 ## Usage
 
@@ -32,7 +11,7 @@ bower install @bhplugin/ng-datatable --save
 
 ```bash
 import { NgModule } from '@angular/core';
-import { DataTableModule } from '@bhplugin/ng-datatable';
+import { DataTableModule } from '@ralgon2005/ng-datatable';
 
 @NgModule({
     imports: [
@@ -205,18 +184,6 @@ export class AppComponent {
 
 ## License
 
-**_@bhplugin/ng-datatable_** is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+**_@ralgon2005/ng-datatable_** is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 <br>
-
-## **Our other plugins**
-
-### Vue3 Datatable - [**@bhplugin/vue3-datatable**](https://www.npmjs.com/package/@bhplugin/vue3-datatable)
-
-<br>
-
-## Support
-
-<a target="_blank" href="https://www.buymeacoffee.com/bhplugin">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60">
-</a>
