@@ -1,20 +1,20 @@
 {
-    "name": "@bhplugin/ng-datatable",
-    "version": "0.1.0",
-    "description": "ng-datatable - fully customizable & easy to use datatable library",
+    "name": "@ralgon/ng-datatable-spanish",
+    "version": "0.0.1",
+    "description": "ng-datatable - spanish translate bhaveshpatel200/ng-datatable",
     "private": false,
     "author": {
-        "name": "Bhavesh Patel",
-        "email": "bhavesh.patel200@gmail.com"
+        "name": "Ralgon",
+        "email": "ralgon2005@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bhaveshpatel200/ng-datatable.git"
+        "url": "git+https://github.com/raulGMTA/ng-datatable.git"
     },
     "bugs": {
-        "url": "https://github.com/bhaveshpatel200/ng-datatable/issues"
+        "url": "https://github.com/raulGMTA/ng-datatable/issues"
     },
-    "homepage": "https://github.com/bhaveshpatel200/ng-datatable#readme",
+    "homepage": "https://github.com/raulGMTA/ng-datatable#readme",
     "funding": "https://github.com/sponsors/bhaveshpatel200",
     "keywords": [
         "angular",

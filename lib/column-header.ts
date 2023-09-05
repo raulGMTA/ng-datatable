@@ -61,9 +61,9 @@ import { colDef } from './modals';
                                 <input *ngIf="col.type === 'number'" [(ngModel)]="col.value" type="number" class="bh-form-control" (keyup)="filterChange.emit()" />
                                 <input *ngIf="col.type === 'date'" [(ngModel)]="col.value" type="date" class="bh-form-control" (change)="filterChange.emit()" />
                                 <select *ngIf="col.type === 'bool'" [(ngModel)]="col.value" class="bh-form-control" (change)="filterChange.emit()" (click)="isOpenFilter = null">
-                                    <option [ngValue]="undefined">All</option>
-                                    <option [ngValue]="true">True</option>
-                                    <option [ngValue]="false">False</option>
+                                    <option [ngValue]="undefined">Todos</option>
+                                    <option [ngValue]="true">SI</option>
+                                    <option [ngValue]="false">NO</option>
                                 </select>
 
                                 <button *ngIf="col.type !== 'bool'" type="button" (click)="toggleFilterMenu(col); $event.stopPropagation()">
